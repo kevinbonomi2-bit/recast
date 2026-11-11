@@ -1,0 +1,27 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Build output
+build/
+dist/
+*.spec
+
+# Design workspace (mockups, exploration)
+.oil-ui/
+
+# Postgame: a separate app kept in this folder, not part of this repository
+postgame/
+vendor/
+tests/test_postgame.py
+packaging/build_postgame.ps1
+packaging/postgame.iss
+packaging/postgame_main.py
+brand/build_postgame_icon.py
+brand/postgame.*
+requirements-postgame.txt
+
+# Local tooling
+.claude/
